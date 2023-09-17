@@ -63,6 +63,16 @@ namespace EmergencyButtonBC.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1264032164_612x612_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1264032164-612x612-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2023_09_16_at_7_09_52_PM {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2023-09-16 at 7.09.52 PM", resourceCulture);

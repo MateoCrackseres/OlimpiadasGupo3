@@ -29,8 +29,9 @@ namespace EmergencyButtonBC
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            comboBox1.Width = 200; // Aquí puedes establecer el ancho que desees
+            comboBox1.Width = 200; 
             comboBox1.Height = 100;
         }
+
     }
 }
