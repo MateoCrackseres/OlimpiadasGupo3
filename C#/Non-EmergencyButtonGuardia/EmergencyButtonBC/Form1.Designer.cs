@@ -66,11 +66,12 @@
             this.lblemergencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(120)))), ((int)(((byte)(246)))));
             this.lblemergencia.Font = new System.Drawing.Font("Microsoft YaHei", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblemergencia.ForeColor = System.Drawing.Color.Snow;
-            this.lblemergencia.Location = new System.Drawing.Point(-8, 38);
+            this.lblemergencia.Location = new System.Drawing.Point(-9, 42);
             this.lblemergencia.Name = "lblemergencia";
-            this.lblemergencia.Size = new System.Drawing.Size(708, 128);
+            this.lblemergencia.Padding = new System.Windows.Forms.Padding(100, 0, 100, 0);
+            this.lblemergencia.Size = new System.Drawing.Size(705, 128);
             this.lblemergencia.TabIndex = 5;
-            this.lblemergencia.Text = "EMERGENCIA";
+            this.lblemergencia.Text = "NORMAL";
             // 
             // label1
             // 
@@ -106,7 +107,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(120)))), ((int)(((byte)(246)))));
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Snow;
-            this.label3.Location = new System.Drawing.Point(-113, 491);
+            this.label3.Location = new System.Drawing.Point(-115, 491);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(200, 0, 200, 0);
             this.label3.Size = new System.Drawing.Size(921, 128);

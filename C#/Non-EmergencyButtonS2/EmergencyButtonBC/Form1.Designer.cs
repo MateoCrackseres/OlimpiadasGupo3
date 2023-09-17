@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -68,9 +69,8 @@
             this.lblemergencia.ForeColor = System.Drawing.Color.Snow;
             this.lblemergencia.Location = new System.Drawing.Point(-8, 38);
             this.lblemergencia.Name = "lblemergencia";
-            this.lblemergencia.Size = new System.Drawing.Size(708, 128);
+            this.lblemergencia.Size = new System.Drawing.Size(0, 128);
             this.lblemergencia.TabIndex = 5;
-            this.lblemergencia.Text = "EMERGENCIA";
             // 
             // label1
             // 
@@ -106,7 +106,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(120)))), ((int)(((byte)(246)))));
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Snow;
-            this.label3.Location = new System.Drawing.Point(-44, 491);
+            this.label3.Location = new System.Drawing.Point(-51, 491);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(200, 0, 200, 0);
             this.label3.Size = new System.Drawing.Size(797, 128);
@@ -137,12 +137,26 @@
             this.label5.Text = "||\r\n||\r\n||\r\n||\r\n||\r\n||";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(120)))), ((int)(((byte)(246)))));
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Snow;
+            this.label6.Location = new System.Drawing.Point(-9, 42);
+            this.label6.Name = "label6";
+            this.label6.Padding = new System.Windows.Forms.Padding(100, 0, 100, 0);
+            this.label6.Size = new System.Drawing.Size(705, 128);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "NORMAL";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(100)))), ((int)(((byte)(170)))));
             this.ClientSize = new System.Drawing.Size(684, 661);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -168,6 +182,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
