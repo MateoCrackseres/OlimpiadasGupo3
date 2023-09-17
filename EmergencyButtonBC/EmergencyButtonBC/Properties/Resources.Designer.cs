@@ -63,6 +63,16 @@ namespace EmergencyButtonBC.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icono_del_boton {
+            get {
+                object obj = ResourceManager.GetObject("icono_del_boton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1264032164_612x612_removebg_preview__1_ {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1264032164-612x612-removebg-preview (1)", resourceCulture);
