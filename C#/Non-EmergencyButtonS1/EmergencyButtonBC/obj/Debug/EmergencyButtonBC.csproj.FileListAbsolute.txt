@@ -1,0 +1,11 @@
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\bin\Debug\EmergencyButtonBC.exe.config
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\bin\Debug\EmergencyButtonBC.exe
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\bin\Debug\EmergencyButtonBC.pdb
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.csproj.AssemblyReference.cache
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.csproj.SuggestedBindingRedirects.cache
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.Form1.resources
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.Properties.Resources.resources
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.csproj.GenerateResource.cache
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.csproj.CoreCompileInputs.cache
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.exe
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\EmergencyButtonBC\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.pdb
