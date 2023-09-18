@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,7 +45,7 @@
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.ForeColor = System.Drawing.Color.White;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 33;
+            this.comboBox1.ItemHeight = 52;
             this.comboBox1.Items.AddRange(new object[] {
             "Sala 1",
             "Sala 2",
@@ -53,7 +54,7 @@
             this.comboBox1.Location = new System.Drawing.Point(404, 83);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.comboBox1.Size = new System.Drawing.Size(239, 41);
+            this.comboBox1.Size = new System.Drawing.Size(239, 60);
             this.comboBox1.TabIndex = 5;
             // 
             // radioButton1
@@ -63,7 +64,7 @@
             this.radioButton1.ForeColor = System.Drawing.Color.White;
             this.radioButton1.Location = new System.Drawing.Point(385, 161);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(189, 37);
+            this.radioButton1.Size = new System.Drawing.Size(280, 56);
             this.radioButton1.TabIndex = 6;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Emergencia";
@@ -76,7 +77,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(398, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 33);
+            this.label1.Size = new System.Drawing.Size(126, 52);
             this.label1.TabIndex = 7;
             this.label1.Text = "Area:";
             // 
@@ -87,7 +88,7 @@
             this.radioButton2.ForeColor = System.Drawing.Color.White;
             this.radioButton2.Location = new System.Drawing.Point(385, 204);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(231, 37);
+            this.radioButton2.Size = new System.Drawing.Size(343, 56);
             this.radioButton2.TabIndex = 8;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "No emergencia";
@@ -109,7 +110,6 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::EmergencyButtonBC.Properties.Resources.icono_del_boton;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
             this.button1.FlatAppearance.BorderSize = 0;
@@ -118,6 +118,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Location = new System.Drawing.Point(1, 37);
             this.button1.Name = "button1";
             this.button1.RightToLeft = System.Windows.Forms.RightToLeft.No;
