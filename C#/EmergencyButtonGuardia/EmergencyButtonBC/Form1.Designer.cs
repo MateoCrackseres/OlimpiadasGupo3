@@ -28,37 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnStart = new System.Windows.Forms.Button();
             this.lblemergencia = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnStop = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // button1
+            // btnStart
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(0)))), ((int)(((byte)(57)))));
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(0)))), ((int)(((byte)(57)))));
-            this.button1.FlatAppearance.BorderSize = 6;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(60)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(60)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Location = new System.Drawing.Point(160, 151);
-            this.button1.Name = "button1";
-            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button1.Size = new System.Drawing.Size(361, 355);
-            this.button1.TabIndex = 4;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
-            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
-            this.button1.MouseHover += new System.EventHandler(this.button1_MouseHover);
+            this.btnStart.BackColor = System.Drawing.Color.Transparent;
+            this.btnStart.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnStart.BackgroundImage")));
+            this.btnStart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStart.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(0)))), ((int)(((byte)(57)))));
+            this.btnStart.FlatAppearance.BorderSize = 6;
+            this.btnStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(60)))));
+            this.btnStart.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(60)))));
+            this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStart.Font = new System.Drawing.Font("Microsoft YaHei", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnStart.Location = new System.Drawing.Point(162, 153);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnStart.Size = new System.Drawing.Size(361, 355);
+            this.btnStart.TabIndex = 4;
+            this.btnStart.UseVisualStyleBackColor = false;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click_1);
+            this.btnStart.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
+            this.btnStart.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             // 
             // lblemergencia
             // 
@@ -68,7 +71,7 @@
             this.lblemergencia.ForeColor = System.Drawing.Color.Snow;
             this.lblemergencia.Location = new System.Drawing.Point(-8, 38);
             this.lblemergencia.Name = "lblemergencia";
-            this.lblemergencia.Size = new System.Drawing.Size(708, 128);
+            this.lblemergencia.Size = new System.Drawing.Size(1060, 191);
             this.lblemergencia.TabIndex = 5;
             this.lblemergencia.Text = "EMERGENCIA";
             // 
@@ -82,7 +85,7 @@
             this.label1.Margin = new System.Windows.Forms.Padding(10);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(10, 10, 10, 100);
-            this.label1.Size = new System.Drawing.Size(1063, 238);
+            this.label1.Size = new System.Drawing.Size(1595, 301);
             this.label1.TabIndex = 6;
             this.label1.Text = "_______________________";
             // 
@@ -96,7 +99,7 @@
             this.label2.Margin = new System.Windows.Forms.Padding(10);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(10, 10, 10, 100);
-            this.label2.Size = new System.Drawing.Size(1063, 238);
+            this.label2.Size = new System.Drawing.Size(1595, 301);
             this.label2.TabIndex = 7;
             this.label2.Text = "_______________________";
             // 
@@ -109,7 +112,7 @@
             this.label3.Location = new System.Drawing.Point(-120, 491);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(200, 0, 200, 0);
-            this.label3.Size = new System.Drawing.Size(921, 128);
+            this.label3.Size = new System.Drawing.Size(1181, 191);
             this.label3.TabIndex = 8;
             this.label3.Text = "GUARDIA";
             // 
@@ -120,7 +123,7 @@
             this.label4.ForeColor = System.Drawing.Color.Crimson;
             this.label4.Location = new System.Drawing.Point(619, 103);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 516);
+            this.label4.Size = new System.Drawing.Size(120, 768);
             this.label4.TabIndex = 9;
             this.label4.Text = "||\r\n||\r\n||\r\n||\r\n||\r\n||";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -132,10 +135,39 @@
             this.label5.ForeColor = System.Drawing.Color.Crimson;
             this.label5.Location = new System.Drawing.Point(-10, 101);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 516);
+            this.label5.Size = new System.Drawing.Size(120, 768);
             this.label5.TabIndex = 10;
             this.label5.Text = "||\r\n||\r\n||\r\n||\r\n||\r\n||";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnStop
+            // 
+            this.btnStop.BackColor = System.Drawing.Color.Transparent;
+            this.btnStop.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnStop.BackgroundImage")));
+            this.btnStop.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStop.Enabled = false;
+            this.btnStop.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(0)))), ((int)(((byte)(57)))));
+            this.btnStop.FlatAppearance.BorderSize = 6;
+            this.btnStop.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(60)))));
+            this.btnStop.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(0)))), ((int)(((byte)(60)))));
+            this.btnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStop.Font = new System.Drawing.Font("Microsoft YaHei", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnStop.Location = new System.Drawing.Point(162, 153);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnStop.Size = new System.Drawing.Size(361, 355);
+            this.btnStop.TabIndex = 11;
+            this.btnStop.UseVisualStyleBackColor = false;
+            this.btnStop.Visible = false;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            this.btnStop.MouseEnter += new System.EventHandler(this.btnStop_MouseEnter);
+            this.btnStop.MouseLeave += new System.EventHandler(this.btnStop_MouseLeave);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -147,9 +179,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblemergencia);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnStop);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
@@ -161,13 +194,15 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Label lblemergencia;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
