@@ -1,0 +1,10 @@
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\bin\Debug\EmergencyButtonBC.exe.config
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\bin\Debug\EmergencyButtonBC.exe
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\bin\Debug\EmergencyButtonBC.pdb
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\obj\Debug\EmergencyButtonS1.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.Form1.resources
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\obj\Debug\EmergencyButtonS1.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\obj\Debug\EmergencyButtonS1.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.exe
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\C#\EmergencyButtonS1\EmergencyButtonBC\obj\Debug\EmergencyButtonBC.pdb
