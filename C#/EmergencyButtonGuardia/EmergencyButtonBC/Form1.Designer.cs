@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnStart = new System.Windows.Forms.Button();
             this.lblemergencia = new System.Windows.Forms.Label();
@@ -37,6 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnStop = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // btnStart
@@ -69,7 +71,7 @@
             this.lblemergencia.ForeColor = System.Drawing.Color.Snow;
             this.lblemergencia.Location = new System.Drawing.Point(-8, 38);
             this.lblemergencia.Name = "lblemergencia";
-            this.lblemergencia.Size = new System.Drawing.Size(708, 128);
+            this.lblemergencia.Size = new System.Drawing.Size(1060, 191);
             this.lblemergencia.TabIndex = 5;
             this.lblemergencia.Text = "EMERGENCIA";
             // 
@@ -83,7 +85,7 @@
             this.label1.Margin = new System.Windows.Forms.Padding(10);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(10, 10, 10, 100);
-            this.label1.Size = new System.Drawing.Size(1063, 238);
+            this.label1.Size = new System.Drawing.Size(1595, 301);
             this.label1.TabIndex = 6;
             this.label1.Text = "_______________________";
             // 
@@ -97,7 +99,7 @@
             this.label2.Margin = new System.Windows.Forms.Padding(10);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(10, 10, 10, 100);
-            this.label2.Size = new System.Drawing.Size(1063, 238);
+            this.label2.Size = new System.Drawing.Size(1595, 301);
             this.label2.TabIndex = 7;
             this.label2.Text = "_______________________";
             // 
@@ -110,7 +112,7 @@
             this.label3.Location = new System.Drawing.Point(-120, 491);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(200, 0, 200, 0);
-            this.label3.Size = new System.Drawing.Size(921, 128);
+            this.label3.Size = new System.Drawing.Size(1181, 191);
             this.label3.TabIndex = 8;
             this.label3.Text = "GUARDIA";
             // 
@@ -121,7 +123,7 @@
             this.label4.ForeColor = System.Drawing.Color.Crimson;
             this.label4.Location = new System.Drawing.Point(619, 103);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 516);
+            this.label4.Size = new System.Drawing.Size(120, 768);
             this.label4.TabIndex = 9;
             this.label4.Text = "||\r\n||\r\n||\r\n||\r\n||\r\n||";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -133,7 +135,7 @@
             this.label5.ForeColor = System.Drawing.Color.Crimson;
             this.label5.Location = new System.Drawing.Point(-10, 101);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 516);
+            this.label5.Size = new System.Drawing.Size(120, 768);
             this.label5.TabIndex = 10;
             this.label5.Text = "||\r\n||\r\n||\r\n||\r\n||\r\n||";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -161,6 +163,11 @@
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             this.btnStop.MouseEnter += new System.EventHandler(this.btnStop_MouseEnter);
             this.btnStop.MouseLeave += new System.EventHandler(this.btnStop_MouseLeave);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -195,6 +202,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

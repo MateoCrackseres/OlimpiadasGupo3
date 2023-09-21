@@ -14,6 +14,12 @@ namespace EmergencyButtonBC
 {
     public partial class Form1 : Form
     {
+
+        private double contador=0;
+        //conexion.ConnectionString = "Server=Servidor;Database=Nombredelabase;
+        //Uid=nombredeusuario;Pwd=contraseña;";
+
+        //cadenaConexion = "Database" + bd + ";Data Source="+servidor+";User Id=" + usuario + ";Password=" + password + "";
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +39,7 @@ namespace EmergencyButtonBC
         }
         private void btnStart_Click_1(object sender, EventArgs e)
         {
+            timer1.Enabled = true;
             SoundPlayer Alerta = new SoundPlayer();
             Alerta.SoundLocation = "C:/Users/matre/OneDrive/Escritorio/Olimpiadas/OlimpiadasGupo3/Documentacion/GuardiaEmergencia.wav";
             Alerta.PlayLooping();
@@ -65,6 +72,11 @@ namespace EmergencyButtonBC
         {
             this.BackColor = System.Drawing.Color.FromArgb(199, 0, 57);
             btnStop.FlatAppearance.BorderColor = Color.FromArgb(199, 0, 57);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            contador++;
         }
     }
 }
