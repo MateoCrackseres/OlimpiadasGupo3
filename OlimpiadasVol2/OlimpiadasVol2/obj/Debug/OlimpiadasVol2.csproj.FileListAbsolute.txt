@@ -1,0 +1,10 @@
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\bin\Debug\OlimpiadasVol2.exe.config
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\bin\Debug\OlimpiadasVol2.exe
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\bin\Debug\OlimpiadasVol2.pdb
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\obj\Debug\OlimpiadasVol2.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\obj\Debug\OlimpiadasVol2.Form1.resources
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\obj\Debug\OlimpiadasVol2.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\obj\Debug\OlimpiadasVol2.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\obj\Debug\OlimpiadasVol2.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\obj\Debug\OlimpiadasVol2.exe
+C:\Users\Usuario\Desktop\Olimpiadas 2023 - grupo 3\OlimpiadasGupo3\OlimpiadasVol2\OlimpiadasVol2\obj\Debug\OlimpiadasVol2.pdb
