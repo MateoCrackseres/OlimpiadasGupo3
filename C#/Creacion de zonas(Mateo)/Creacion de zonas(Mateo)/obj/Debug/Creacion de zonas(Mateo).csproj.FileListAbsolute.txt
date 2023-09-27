@@ -42,3 +42,47 @@ C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\Creacion de zonas(
 C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion de zonas(Mateo).exe
 C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion de zonas(Mateo).pdb
 C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion_de_zonas_Mateo_.Programa.resources
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\Creacion de zonas(Mateo).exe.config
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\Creacion de zonas(Mateo).exe
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\Creacion de zonas(Mateo).pdb
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\Google.Protobuf.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\MySql.Data.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Buffers.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.IO.Pipelines.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Memory.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\ZstdSharp.dll
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\Google.Protobuf.pdb
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\Google.Protobuf.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\MySql.Data.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Buffers.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.IO.Pipelines.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Memory.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion de zonas(Mateo).csproj.AssemblyReference.cache
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion de zonas(Mateo).csproj.SuggestedBindingRedirects.cache
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion_de_zonas_Mateo_.Form1.resources
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion_de_zonas_Mateo_.Programa.resources
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion_de_zonas_Mateo_.Properties.Resources.resources
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion de zonas(Mateo).csproj.GenerateResource.cache
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion de zonas(Mateo).csproj.CoreCompileInputs.cache
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion de zonas(Mateo).csproj.CopyComplete
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion de zonas(Mateo).exe
+C:\Users\matre\OneDrive\Escritorio\Olimpiadas\OlimpiadasGupo3\C#\Creacion de zonas(Mateo)\Creacion de zonas(Mateo)\obj\Debug\Creacion de zonas(Mateo).pdb

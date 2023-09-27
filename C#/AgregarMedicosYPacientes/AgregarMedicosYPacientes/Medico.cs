@@ -21,6 +21,7 @@ namespace AgregarMedicosYPacientes
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //Se comprueba la identidad nuevamente antes de poder cargar los datos en la base de datos
             string clave;
             string[] acceso = new string[4];
             acceso[0] = "primeraclave"; acceso[1] = "segundaclave"; acceso[2] = "terceraclave"; acceso [3] = "cuartaclave";
@@ -45,15 +46,17 @@ namespace AgregarMedicosYPacientes
 
         private void btnAGM_Click(object sender, EventArgs e)
         {
-            bool band = false;
+            //Se verifica que todos los textbox fueron rellenados antes de proseguir
             if (txtLegajo.Text.Length == 0 || txtNombre.Text.Length == 0 || txtApellido.Text.Length == 0 || txtDNI.Text.Length == 0 || txtEdad.Text.Length == 0 || txtDia.Text.Length == 0 || txtMes.Text.Length == 0 || txtYear.Text.Length == 0 || txtTelefono.Text.Length == 0)
             {
+                //Si no estan rellenos
                 MessageBox.Show("Por favor rellena todos los campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 btnAGM.Enabled = false;
                 btnAGM.BackColor = Color.LightGreen;
             }
             else
             {
+                //Si estan rellenos 
                 string legajo = txtLegajo.Text;
                 string nombre = txtNombre.Text;
                 string apellido = txtApellido.Text;
@@ -67,6 +70,7 @@ namespace AgregarMedicosYPacientes
 
                 fecha = txtDia.Text + "/" + txtMes.Text + "/" + txtYear.Text;
 
+                //Se realiza la conexion con la base de datos
                 string connectionString = "Server=localhost;Database=dbcodigoazul;User=root;Password=";
 
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -74,10 +78,10 @@ namespace AgregarMedicosYPacientes
                     try
                     {
                         connection.Open();
-
+                        //Se asignan los campos a rellenar
                         string insertQuery = "INSERT INTO enfermeros (legajo, nombre, apellido, dni, edad, nacimiento, telefono, estado) VALUES (@legajo, @nombre, @apellido, @dni, @edad, @nacimiento, @telefono, @estado)";
 
-
+                        //Se rellenan los campos con las variables
                         using (MySqlCommand command = new MySqlCommand(insertQuery, connection))
                         {
                             command.Parameters.AddWithValue("@legajo", legajo);
@@ -104,6 +108,7 @@ namespace AgregarMedicosYPacientes
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Boton cancelar
             Close();
         }
     }

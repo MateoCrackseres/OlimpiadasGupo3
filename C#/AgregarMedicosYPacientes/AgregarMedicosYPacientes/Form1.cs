@@ -25,19 +25,21 @@ namespace AgregarMedicosYPacientes
             string[] Aclaves = new string[4];
             Aclaves[0] = "primeraclave"; Aclaves[1] = "segundaclave"; Aclaves[2] = "terceraclave"; Aclaves[3] = "cuartaclave";
 
-
+            //Se verifica que la clave ingresada coincida con alguna de las predeterminadas
             INGclave = txtclave.Text;
             if (INGclave == Aclaves[0] || INGclave == Aclaves[1] || INGclave == Aclaves[2] || INGclave == Aclaves[3])
             {
                 MessageBox.Show("Clave de acceso aceptada\nBienvenido", "Acceso", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 if (rdbMedicos.Checked)
                 {
+                    //Si el radiobutton medicos fue seleccionado se accede al apartado para agregar un nuevo medico
                     Medico medicos = new Medico();
                     this.Hide();
                     medicos.Show();
                 }
                 else if (rdbPacientes.Checked)
                 {
+                    //Si el radiobutton pacientes fue seleccionado se accede al apartado para agregar un nuevo paciente
                     Personal pacientes = new Personal();
                     this.Hide();
                     pacientes.Show();
@@ -53,6 +55,7 @@ namespace AgregarMedicosYPacientes
             }
             if (errores == 3)
             {
+                //Si se superan mas de 3 intentos se cierra el programa
                 MessageBox.Show("Se ha alcanzado el limite de intentos perimtidos\nSi no recuerdas tu clave de acceso consulta en el centro de analisis de datos o al supervisor de dicha area", "Intentos maximos alcanzados", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 Close();
             }
@@ -74,6 +77,7 @@ namespace AgregarMedicosYPacientes
         }
         private void VerificarHabilitarBoton()
         {
+            //Se crea una clase la cual verifica si el textbox contiene algo y alguno de los radiobutton fue seleccionado
             if ((txtclave.Text.Length !=0) && (rdbMedicos.Checked || rdbPacientes.Checked))
             {
                 button1.Enabled = true;

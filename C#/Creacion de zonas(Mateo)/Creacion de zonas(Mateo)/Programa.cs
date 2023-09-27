@@ -16,6 +16,7 @@ namespace Creacion_de_zonas_Mateo_
         private int contador = 0;
         public Programa()
         {
+            //Se inicializa un Timer por seguridad, el usuario dispone de 1 minuto para realizar los cambios pertinentes, caso contrario el programa se cierra mostrando un aviso
             InitializeComponent();
             timer1.Start();
         }
@@ -25,6 +26,7 @@ namespace Creacion_de_zonas_Mateo_
             string aux, zona;
             aux = textBox1.Text;
             zona = aux.Replace(" ", "");
+            //Conexion con la base de datos
             string connectionString = "Server=localhost;Database=dbcodigoazul;User=root;Password=";
 
             MySqlConnection connection = new MySqlConnection(connectionString); //Creacion de la zona designada
@@ -34,9 +36,9 @@ namespace Creacion_de_zonas_Mateo_
                 connection.Open();
                 Console.WriteLine("Conexión establecida.");
 
-                string createTableQuery = $"CREATE TABLE IF NOT EXISTS {zona} (" +
-                                          "idAlerta INT PRIMARY KEY AUTO_INCREMENT," +
-                                          "TRespuesta VARCHAR(50)" +
+                string createTableQuery = $"CREATE TABLE IF NOT EXISTS {zona} (" +//La zona solo se crea si no existe ya una tabla con el mismo nombre
+                                          "idAlerta INT PRIMARY KEY AUTO_INCREMENT," +//Se le agrega un campo idAlerta, la cual es clave primaria autoincremental
+                                          "TRespuesta VARCHAR(50)" +//Se agrega el campo del tiempo de respuesta del boton
                                           ");";
 
                 MySqlCommand createTableCommand = new MySqlCommand(createTableQuery, connection);
@@ -63,6 +65,7 @@ namespace Creacion_de_zonas_Mateo_
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            //Se verifica que haya almenos un caracter introducido en el textbox, caso contrario el boton "Crear Zona" se deshabilita
             button1.Enabled = true;
             if (textBox1.Text.Length<1)
             {
@@ -73,6 +76,7 @@ namespace Creacion_de_zonas_Mateo_
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            //Verificacion del Timer
             contador++;
             if (contador == 60) 
             {
@@ -83,6 +87,7 @@ namespace Creacion_de_zonas_Mateo_
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //Boton cancel
             Close();
         }
     }
