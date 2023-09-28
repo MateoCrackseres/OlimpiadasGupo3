@@ -20,15 +20,16 @@ namespace SimuladorCelular
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string contra = "admin";
-            string usuario = "pato";
+            string contra = "clavedeacceso";
+            string usuario = "admin";
+            //Verificar si el ususario y la clave coinciden
             if(txtUsuario.Text.Length < 1 || txtPassword.Text.Length < 1 ) 
             {
                 MessageBox.Show("Rellena ambos campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                if (txtUsuario.Text == contra && txtPassword.Text == usuario)
+                if (txtUsuario.Text.Trim() == usuario && txtPassword.Text == contra)
                 {
                     MessageBox.Show("Datos validados correctamente", "Validacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Datos nuevoform = new Datos();
@@ -62,6 +63,21 @@ namespace SimuladorCelular
         private void btnMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
